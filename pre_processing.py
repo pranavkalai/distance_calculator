@@ -26,8 +26,4 @@ def get_url_parms(file_name):
     url_orgins = '|'.join(list[0])
     url_destinations = '|'.join(list[1])
     return (url_orgins, url_destinations)
-
-# file = 'test.xlsx'
-
-# print(get_url_parms(file))
             
